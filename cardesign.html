@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardesign</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background: #3a3a5c;
+            background: radial-gradient(circle, rgb(89, 89, 189) 0%, rgba(58, 58, 92, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contentbox {
+            width: 60%;
+            height: 60%;
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+        }
+
+        .leftbox {
+
+            width: 50%;
+            height: 100%;
+            border: 1px solid white;
+            background-color: rgb(79, 21, 79);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .textarea {
+            width: 100%;
+            height: fit-content;
+            position: relative;
+            box-sizing: border-box;
+            top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        #heading {
+            width: 69%;
+            color: white;
+            text-align: start;
+        }
+
+        #para {
+            width: 69%;
+            color: white;
+            text-align: start;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .content{
+            width: 80%;
+            height: 50px;
+            margin-left: auto;
+            margin-right: auto;
+           
+             position: relative;
+             top: 65px;
+             color: white;
+
+             display: flex;
+             flex-direction: row;
+             justify-content:space-evenly;
+             align-items: center;
+             gap: 70px;
+
+        }
+
+        .box1{
+            width: 30%;
+            height: 20px;
+           
+              
+        }
+        .box2{
+            width: 30%;
+             height: 25px;
+             
+
+        }
+        .box3{
+            width: 30%;
+             height: 20px;
+
+        }
+        
+
+        .rightbox {
+            width: 50%;
+            height: 100%;
+            background-image: url('icon.jpg');
+            background-attachment: local;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="contentbox">
+
+            <div class="leftbox">
+
+                <div class="textarea">
+
+                    <h1 id="heading">Get insights that helps your business Grow</h1>
+
+                    <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum similique fugiat
+                        reiciendis omnis dicta doloribus pariatur et, non natus consectetur ipsam exercitationem iusto
+                        neque.</p>
+                </div>
+
+                <div class="content">
+                    <div class="box1">
+                        <h2>10K+</h2>
+                        <p>comments</p>
+                    </div>
+                    <div class="box2">
+                         <h2>214</h2>
+                        <p>paid users</p>
+                    </div>
+                    <div class="box3">
+                         <h2>15M+</h2>
+                        <p>views</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="rightbox">
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
