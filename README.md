@@ -1,7 +1,3 @@
-Here's an **attractive and professional project description** you can use in your GitHub README to showcase your card design project:
-
----
-
 ## ✨ Card Design UI Project
 
 Welcome to the **Card Design UI Project**, a visually appealing and fully responsive HTML & CSS design project that demonstrates modern layout practices and component styling using only vanilla technologies. This project features **two unique card components** — a **subscription order summary card** and a **business insights card** — designed to represent real-world UI use cases with elegant color schemes and clean structure.
